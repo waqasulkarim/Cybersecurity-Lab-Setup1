@@ -1,6 +1,6 @@
 # 🖥️ Cybersecurity & Pentesting Lab Setup
 
-**Networkwalks Cybersecurity & Pentesting Lab Setup | Project 1**
+**Networkwalks | Project 1 | Tools: Virtualbox + Kali Linux**
 
 ---
 
