@@ -1,10 +1,10 @@
 # 🖥️ Cybersecurity & Pentesting Lab Setup
 
-**Networkwalks Cybersecurity & Pentesting Lab Setup — Week 1 Project**
+**Networkwalks Cybersecurity & Pentesting Lab Setup — Project 1**
 
 ---
 
-## 🎯 Project Overview
+## 📌 Project Overview
 
 This project focuses on setting up a **virtual cybersecurity and penetration-testing laboratory** using VirtualBox and Kali Linux.
 
