@@ -1,6 +1,6 @@
 # 🖥️ Cybersecurity & Pentesting Lab Setup
 
-**Networkwalks Cybersecurity & Pentesting Lab Setup — Project 1**
+**Networkwalks Cybersecurity & Pentesting Lab Setup | Project 1**
 
 ---
 
@@ -78,7 +78,7 @@ Additional target machines can be added to the same virtual network in future pr
 
 # 🪜 Lab Setup Procedure
 
-## Step 1 — Install 7-Zip
+## Step 1. Install 7-Zip
 
 7-Zip was installed to extract the Kali Linux virtual-machine package, which may be distributed as a `.7z` archive.
 
@@ -86,13 +86,13 @@ Additional target machines can be added to the same virtual network in future pr
 
 ---
 
-## Step 2 — Install VirtualBox
+## Step 2. Install VirtualBox
 
 VirtualBox was installed as the hypervisor.
 
 ---
 
-## Step 3 — Create the NAT Network
+## Step 3. Create the NAT Network
 
 A dedicated NAT Network was created in VirtualBox.
 
@@ -111,7 +111,7 @@ This will allow future attacker and target VMs to communicate within the lab.
 
 ---
 
-## Step 4 — Import Kali Linux
+## Step 4. Import Kali Linux
 
 The Kali Linux virtual machine was downloaded from the official Kali Linux website and imported into VirtualBox.
 
@@ -136,7 +136,7 @@ A shared folder was also configured for transferring required files between the 
 
 ---
 
-## Step 5 — Configure the Kali Linux Network
+## Step 5. Configure the Kali Linux Network
 
 The Kali Linux network configuration was checked and configured with a consistent IPv4 address.
 
@@ -155,7 +155,7 @@ A consistent IP address makes it easier to document the lab and reference the Ka
 
 ---
 
-## Step 6 — Create a Clean VM Snapshot
+## Step 6. Create a Clean VM Snapshot
 
 After completing the initial configuration, a VirtualBox snapshot was created.
 
@@ -202,7 +202,7 @@ DNS:
 
 Documenting problems is an important part of the project.
 
-## Problem 1 — Internet Connectivity After Static IP Configuration
+## Problem 1. Internet Connectivity After Static IP Configuration
 
 After manually configuring the IPv4 settings, Internet connectivity may fail depending on the Kali/NetworkManager configuration.
 
@@ -218,7 +218,7 @@ The network connection was then restarted/rebooted and connectivity was tested a
 
 ---
 
-## Problem 2 — VirtualBox VT-x / Virtualization Error
+## Problem 2. VirtualBox VT-x / Virtualization Error
 
 The VM initially failed to start because hardware virtualization was disabled in the system firmware/BIOS.
 
