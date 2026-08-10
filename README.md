@@ -111,7 +111,6 @@ A **NAT Network** was selected because multiple virtual machines connected to th
 
 This will allow future attacker and target VMs to communicate within the lab.
 
-### Screenshot
 
 ---
 
@@ -173,7 +172,6 @@ The snapshot represents the clean baseline of the laboratory.
 
 If a future exercise changes or damages the VM configuration, the machine can be restored to this baseline.
 
-### Screenshot
 
 ---
 
