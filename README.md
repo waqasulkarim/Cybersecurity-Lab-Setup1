@@ -50,7 +50,8 @@ It can be used for activities such as:
 
 ## 🏗️ Lab Architecture
 
-**<<SCREENSHOT 1>>**
+![Lab Architecture](screenshots/1-title-image.png)
+
 ```
 
 Additional target machines can be added to the same virtual network in future projects.
@@ -60,10 +61,10 @@ Additional target machines can be added to the same virtual network in future pr
 ## ⚙️ Lab Configuration
 
 | 🧩 Component       | ⚙️ Configuration   |
-| ------------------ | ------------------ |
-| 🖥️ Host OS        | Windows 10         |
+| ------------------ | ------------------  |
+| 🖥️ Host OS         | Windows 10         |
 | 🧠 Host RAM        | 8 GB               |
-| ⚡ Processor        | Intel Core i5      |
+| ⚡ Processor       | Intel Core i5      |
 | 🧰 Hypervisor      | VirtualBox 7.0.20  |
 | 🐉 Security OS     | Kali Linux 2026.2  |
 | 🧠 Kali RAM        | 2048 MB            |
@@ -104,6 +105,7 @@ IPv4 Prefix:  10.0.0.0/24
 DHCP:         Enabled
 IPv6:         Disabled
 ```
+![NAT Network Configuration](screenshots/2-network-settings-1.png)
 
 A **NAT Network** was selected because multiple virtual machines connected to the same NAT Network can communicate with one another while also having outbound network connectivity.
 
@@ -131,14 +133,10 @@ The VM was allocated:
 ```text
 RAM: 2048 MB
 ```
-
+![NAT Network Configuration](screenshots/3-kali-linux.png)
 A shared folder was also configured for transferring required files between the host operating system and the Kali VM.
 
-### Promiscuous Mode
 
-Promiscuous Mode was configured according to the requirements of the lab.
-
-This setting can be useful for certain packet-capture and network-analysis scenarios, but it should not be treated as universally required for basic connectivity or ordinary packet capture.
 
 ---
 
@@ -157,7 +155,7 @@ DNS: 8.8.8.8
 
 A consistent IP address makes it easier to document the lab and reference the Kali machine in future exercises.
 
-### Screenshot
+![NAT Network Configuration](screenshots/2-network-settings-1.png)
 
 ---
 
