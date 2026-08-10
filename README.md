@@ -1,10 +1,6 @@
-Here is your document with **emojis added in Lab Configuration and Lab Verification sections only (as requested)** while keeping everything else unchanged:
-
----
-
 # 🖥️ Cybersecurity & Pentesting Lab Setup
 
-**NetworkWalks Cybersecurity Internship — Week 1 Project**
+**Networkwalks Cybersecurity & Pentesting Lab Setup — Week 1 Project**
 
 ---
 
@@ -54,35 +50,14 @@ It can be used for activities such as:
 
 ## 🏗️ Lab Architecture
 
-The initial lab contains:
-
-```text
-                    Internet
-                        │
-                        │
-                ┌───────┴───────┐
-                │   Host PC     │
-                │    Windows    │
-                └───────┬───────┘
-                        │
-                 ┌──────┴──────┐
-                 │  VirtualBox │
-                 └──────┬──────┘
-                        │
-                 NAT Network
-                  10.0.0.0/24
-                        │
-                 ┌──────┴──────┐
-                 │ Kali Linux  │
-                 │ 10.0.0.2/24 │
-                 └─────────────┘
+**<<SCREENSHOT 1>>**
 ```
 
 Additional target machines can be added to the same virtual network in future projects.
 
 ---
 
-## ⚙️ 🧪 Lab Configuration
+## ⚙️ Lab Configuration
 
 | 🧩 Component       | ⚙️ Configuration   |
 | ------------------ | ------------------ |
@@ -204,7 +179,7 @@ If a future exercise changes or damages the VM configuration, the machine can be
 
 ---
 
-# ✅ 🧪 Lab Verification
+# 🔎 Lab Verification
 
 | ✅ Test                        | 🧾 Command                      | 🎯 Expected Result              |
 | ----------------------------- | ------------------------------- | ------------------------------- |
