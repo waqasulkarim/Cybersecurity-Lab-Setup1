@@ -52,7 +52,6 @@ It can be used for activities such as:
 
 ![](screenshots/1-title-image.png)
 
-```
 
 Additional target machines can be added to the same virtual network in future projects.
 
@@ -98,13 +97,11 @@ VirtualBox was installed as the hypervisor.
 A dedicated NAT Network was created in VirtualBox.
 
 Configuration:
-
-```text
 Network Name: NatNetwork
 IPv4 Prefix:  10.0.0.0/24
 DHCP:         Enabled
 IPv6:         Disabled
-```
+
 ![](screenshots/2-network-settings-1.png)
 
 A **NAT Network** was selected because multiple virtual machines connected to the same NAT Network can communicate with one another while also having outbound network connectivity.
@@ -236,37 +233,6 @@ The issue was resolved by:
 
 After enabling virtualization, the VM started successfully.
 
----
-
-# 📁 Repository Structure
-
-```
-networkwalks-B082-week1-cybersecurity-lab-setup/
-│
-├── README.md
-│
-└── screenshots/
-    ├── 01-nat-network-setup.png
-    ├── 02-kali-vm-network-settings.png
-    ├── 03-kali-ip-configuration.png
-    ├── 04-kali-snapshot-clean-state.png
-    └── 05-lab-verification-terminal.png
-```
-
----
-
-# 📸 Evidence Requirements
-
-The repository should contain sufficient evidence that the lab was actually configured.
-
-At minimum, include screenshots showing:
-
-- NAT Network configuration
-- Kali Linux network configuration
-- VM snapshot
-- Additional verification/testing where appropriate
-
-Screenshots should clearly show the relevant configuration and should not contain unnecessary personal information.
 
 ---
 
@@ -306,28 +272,7 @@ I learned that documenting commands, configuration, screenshots, problems, and s
 
 # 🔐 Security & Ethical Use
 
-This laboratory is intended strictly for:
-
-- Education
-- Cybersecurity training
-- Authorized testing
-- Personal laboratory experimentation
-
-Any scanning, exploitation, password testing, vulnerability assessment, or other security activity must only be performed against systems for which explicit authorization has been obtained.
-
-**Never test unauthorized systems.**
-
----
-
-# 🚀 Next Project
-
-The laboratory created in this project will be used as the foundation for future cybersecurity exercises.
-
-The next project will focus on:
-
-**Footprinting & Reconnaissance of an Authorized Target**
-
-All reconnaissance activities will be performed only against an approved target and within the defined scope of the internship project.
+This laboratory is intended strictly for education purposes only.
 
 ---
 
